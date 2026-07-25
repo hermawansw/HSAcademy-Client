@@ -1,0 +1,15 @@
+fithome-client/
+├── .github/
+│   └── workflows/          # (Opsional) CI/CD Automation
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Custom stylesheet (jika ada selain Tailwind)
+│   ├── js/
+│   │   ├── config.js       # Konfigurasi Kunci API (Supabase / Firebase)
+│   │   ├── database.js     # Manajemen Query & CRUD Database
+│   │   └── app.js          # Logika Interaksi UI Utama & State
+│   └── images/
+│       └── logo.png        # Aset Gambar/Logo Aplikasi
+├── index.html              # Halaman Utama (Pemesanan & Beranda)
+├── booking-success.html    # Halaman Konfirmasi Pesanan
+└── README.md               # Dokumentasi Repositori
